@@ -989,11 +989,11 @@ extern "C" void draw_detections_cv_v3(mat_cv* mat, detection *dets, int num, flo
                 //char image_name[1024];
                 //sprintf(image_name, "result_img/img_%d_%d_%d_%s.jpg", frame_id, img_id, class_id, names[class_id]);
                 //CvRect rect = cvRect(pt1.x, pt1.y, pt2.x - pt1.x, pt2.y - pt1.y);
-                //cv::Mat copy_image = (*show_img)(rect);
-                //cv::imwrite(image_name, copy_image);
                 //// cvSetImageROI(copy_img, rect);
                 //// cvSaveImage(image_name, copy_img, 0);
                 //// cvResetImageROI(copy_img);
+                //cv::Mat copy_image = (*show_img)(rect);
+                //cv::imwrite(image_name, copy_image);
 
                 cv::rectangle(*show_img, pt1, pt2, color, width, 8, 0);
                 if (ext_output)
