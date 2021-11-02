@@ -980,7 +980,7 @@ extern "C" void draw_detections_cv_v3(mat_cv* mat, detection *dets, int num, flo
                 //static int copied_frame_id = -1;
                 // //static IplImage* copy_img = NULL;
                 //if (copied_frame_id != frame_id) {
-                //   copied_frame_id = frame_id;
+                //    copied_frame_id = frame_id;
                 //   // if(copy_img == NULL) copy_img = cvCreateImage(cvSize(show_img->width, show_img->height), show_img->depth, show_img->nChannels);
                 //   // cvCopy(show_img, copy_img, 0);
                 //}
